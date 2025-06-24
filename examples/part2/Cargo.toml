@@ -1,0 +1,62 @@
+[package]
+name = "rust-masterclass"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dev-dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1", features = ["full"] }
+
+[[example]]
+name = "borrowing"
+path = "borrowing.rs"
+
+[[example]]
+name = "derive_serde"
+path = "derive_serde.rs"
+
+[[example]]
+name = "derive_builtin"
+path = "derive_builtin.rs"
+
+[[example]]
+name = "explicit_copy"
+path = "explicit_copy.rs"
+
+[[example]]
+name = "move_semantics"
+path = "move_semantics.rs"
+
+[[example]]
+name = "option_type"
+path = "option_type.rs"
+
+[[example]]
+name = "pattern_matching"
+path = "pattern_matching.rs"
+
+[[example]]
+name = "result_type"
+path = "result_type.rs"
+
+[[example]]
+name = "simple_type_parameters"
+path = "simple_type_parameters.rs"
+
+[[example]]
+name = "tokio_select"
+path = "tokio_select.rs"
+
+[[example]]
+name = "traits"
+path = "traits.rs"
+
+[[example]]
+name = "use_after_move"
+path = "use_after_move.rs"
+
+[[example]]
+name = "vec_macro"
+path = "vec_macro.rs"
